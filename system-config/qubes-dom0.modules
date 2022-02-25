@@ -1,1 +1,3 @@
+#!/bin/sh
+
 modprobe pciback 2> /dev/null || modprobe xen-pciback
